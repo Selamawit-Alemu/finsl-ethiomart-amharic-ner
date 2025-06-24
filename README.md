@@ -203,3 +203,37 @@ jupyter notebook
     Vendor Scorecard bridges fintech and real-time engagement, giving lenders evidence for offering loans.
 
     Transparent AI via SHAP/LIME builds trust for future AI-driven financial decisions in Ethiopia.
+
+
+## 🚀 **Setup & Run Instructions**
+
+1. **Clone repo:**
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/ethiomart-amharic-ner.git
+    cd ethiomart-amharic-ner
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Scrape Telegram data:**
+    ```bash
+    python scripts/telegram_scrapper.py
+    ```
+
+4. **Preprocess and train model:**
+    ```bash
+    python scripts/preprocess_telegram_data.py
+    python scripts/train_distilbert.py
+    ```
+
+5. **Launch Jupyter notebooks:**
+    ```bash
+    jupyter notebook
+    ```
+    - Open and run:
+      - `model_evaluation.ipynb`
+      - `FinTech Vendor Scorecard for Micro-Lending.ipynb`
+      - `interpreting_distilbert.ipynb`
