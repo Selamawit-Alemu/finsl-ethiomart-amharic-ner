@@ -1,20 +1,36 @@
-telethon
-pandas
-numpy
-matplotlib
-scikit-learn
-transformers
-torch
-tqdm
-flake8
-pytest
-openpyxl
-python-dotenv
-regex
-dotenv
-jupyter
-label-studio
+# Core NLP & Modeling
+transformers>=4.40.0
+torch>=2.0.0
 datasets
 seqeval
 evaluate
 accelerate>=0.26.0
+
+# Data Processing & Utilities
+pandas
+numpy
+regex
+openpyxl
+python-dotenv
+dotenv
+tqdm
+
+# Visualization
+matplotlib
+seaborn
+
+# Model Interpretability
+shap
+lime
+
+# Telegram Scraping
+telethon
+
+# Experimentation & Development
+jupyter
+scikit-learn
+flake8
+pytest
+
+# Annotation
+label-studio
